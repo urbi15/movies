@@ -156,7 +156,7 @@ onMounted(fetchMyMovies);
             </div>
 
             <div v-if="myMovies.length === 0" class="text-center py-20 text-gray-700">
-                <p class="text-xl font-black uppercase italic tracking-widest opacity-20">Twój vault jest pusty</p>
+                <p class="text-xl font-black uppercase italic tracking-widest text-gray-300">Twój vault jest pusty</p>
             </div>
         </div>
     </div>
